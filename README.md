@@ -28,6 +28,10 @@ The database of the defined case study comes from the Federal Institute of Rio G
 
 <img src="https://github.com/elvismelo/paper_school_dropout/blob/main/imbalanced_database.png" width=40% height=40%>
 
+The dataset is available. to access it, simply send a request to the authors.
+
+E-mails to request: elvis.melo.016@ufrn.edu.br, ivan@ufrn.edu.br and danielgcosta@fe.up.pt
+
 ## Evaluation Data
 
 The dataset under study is split into Train and Test during the build black-box model of the data pipeline. 80% of the clean data is used to Train and the remaining 20% to Test. Additionally, 20% of the Train data is used for validation purposes (hyperparameter-tuning).

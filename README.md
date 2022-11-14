@@ -30,7 +30,7 @@ The database of the defined case study comes from the Federal Institute of Rio G
 
 The dataset is available. to access it, simply send a request to the authors.
 
-E-mails to request: elvis.melo.016@ufrn.edu.br, ivan@ufrn.edu.br and danielgcosta@fe.up.pt
+E-mails to request: elvis.melo.016@ufrn.edu.br, ivanovitch.silva@ufrn.br and danielgcosta@fe.up.pt
 
 ## Evaluation Data
 

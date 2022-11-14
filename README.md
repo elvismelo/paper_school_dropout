@@ -23,6 +23,8 @@ In this paper, we applying and evaluate XAI methods to predict students in schoo
 
 The database of the defined case study comes from the Federal Institute of Rio Grande do Norte (IFRN), which includes data information of students from all 19 Campi spread throughout the mesoregions of Rio Grande do Norte in Brazil. Information on the family, school performance, financial field, ethnicity, demographics, and work situation, are present in the dataset.
 
+<img src="https://github.com/elvismelo/paper_school_dropout/blob/main/imbalanced_database.png" width=50% height=50%>
+
 ## Evaluation Data
 
 The dataset under study is split into Train and Test during the build black-box model of the data pipeline. 80% of the clean data is used to Train and the remaining 20% to Test. Additionally, 20% of the Train data is used for validation purposes (hyperparameter-tuning).
@@ -30,6 +32,8 @@ The dataset under study is split into Train and Test during the build black-box 
 ## Metrics
 
 In order to follow the performance of machine learning experiments, the project marked certains stage outputs of the data pipeline as metrics. The metrics adopted are: Confusion Matrix and accuracy.
+
+<img src="https://github.com/elvismelo/paper_school_dropout/blob/main/confusion_matrix_model.png" width=50% height=50%>
 
 ## Ethical Considerations
 

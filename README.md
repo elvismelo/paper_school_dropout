@@ -15,7 +15,7 @@ In the pipeline archive, let's take the following steps:
 ## Model Details
 Elvis Melo created the model. A complete data pipeline was built using Google Colab, Scikit-Learn, Keras Tuning, TensorFlow to train a black-box model. The big-picture of the data pipeline is shown below:
 
-<img src="https://github.com/elvismelo/paper_school_dropout/blob/main/flow_diagram.png" width=40% height=40%>
+<img src="https://github.com/elvismelo/paper_school_dropout/blob/main/flow_diagram.png" width=80% height=80%>
 
 
 ## Intended Use

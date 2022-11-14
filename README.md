@@ -1,10 +1,10 @@
-# Code for paper "On the Use of Explainable Artificial Intelligence to Evaluate School Dropout"
+# On the Use of Explainable Artificial Intelligence to Evaluate School Dropout
 
-In this paper, we applying and evaluate XAI methods to predict students in school dropout situation, considering a database of students from the Federal Institute of Rio Grande do Norte (IFRN), a Brazilian technical school.
+Code for paper "On the Use of Explainable Artificial Intelligence to Evaluate School Dropout"
 
-Therefore, let's take the following steps:
+In the pipeline archive, let's take the following steps:
 
-1.  Load Libraries
+1. Load Libraries
 2. Data Clean
 3. Balance Data
 4. Build a Black-Box Model
@@ -14,6 +14,9 @@ Therefore, let's take the following steps:
 
 ## Model Details
 Elvis Melo created the model. A complete data pipeline was built using Google Colab, Scikit-Learn, Keras Tuning, TensorFlow to train a black-box model. The big-picture of the data pipeline is shown below:
+
+<img src="https://github.com/elvismelo/paper_school_dropout/blob/main/flow_diagram.png" width=40% height=40%>
+
 
 ## Intended Use
 

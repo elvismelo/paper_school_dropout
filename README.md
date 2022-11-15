@@ -17,6 +17,7 @@ Elvis Melo created the model. A complete data pipeline was built using Google Co
 
 <img src="https://github.com/elvismelo/paper_school_dropout/blob/main/flow_diagram.jpg" width=80% height=80%>
 
+Here, yellow steps are related to data processing, green steps are related to decision making and xai, blue steps are related to the black-box model
 
 ## Intended Use
 
@@ -44,8 +45,8 @@ In order to follow the performance of machine learning experiments, the project 
 
 ## Ethical Considerations
 
-We may be tempted to claim that this dataset contains the only attributes capable of predicting someone's income. However, we know that is not true, and we will need to deal with the class imbalances somehow.
+In the context of XAI applied to the dropout problem, we're aware that the model does not accurately predict all the reasons that make a student dropping out. As a limitation, we also know that the proportion of the data is insufficient to predict dropout students, due to the unbalance of the target class.
 
 ## Caveats and Recommendations
 
-It should be noted that the model trained in this project was used only for validation of a complete data pipeline. It is notary that some important issues related to dataset imbalances exist, and adequate techniques need to be adopted in order to balance it.
+In this work it was used to predict student dropout using a black-box model. Since this is an Education related problem, needs interpretability of its results, such as using XAI frameworks. There are some important issues related to data set imbalances, and that appropriate techniques need to be adopted in order to balance it. For this, artificial data could be generated with class balancing techniques. The one used in this work was the SMOTE technique.
